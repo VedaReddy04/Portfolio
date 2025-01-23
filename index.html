@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,400&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Veda's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="home">
+      <div class="leftSec">
+          Hi, My name is <span class="grey"><br>Veda Chitti Reddy</span><br>
+          <span>And I'm a <span id="animated-word" class="highlight"></span></span>
+          <!-- Social Media Links -->
+          <div class="social-links">
+              <a href="https://www.linkedin.com/in/vedareddy04/" target="_blank">
+                <i class='bx bxl-linkedin-square' ></i>
+              </a>
+              <a href="https://github.com/VedaReddy04" target="_blank">
+                <i class='bx bxl-github'></i>
+              </a>
+          </div>
+          <!-- Download Resume Button -->
+          <div class="resume-download">
+              <a href="https://drive.google.com/file/d/1M0q5qYY4qkJIR8V0J_6COqBSC_tWkwj5/view?usp=sharing" target="_blank" download>
+                  <button onclick="window.open(this.parentNode.href, '_blank');">Download CV</button>
+              </a>
+          </div>
+      </div>
+      <div class="rightSec">
+          <img src="images/photo.png" alt="profile"/>
+      </div>
+  </div>
+  
+
+  <section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-left">
+                <p>I am a final-year Information Technology student at Vardhaman College of Engineering, with a strong passion for developing impactful software solutions. My expertise lies in creating scalable and efficient web applications, and I am eager to contribute my skills to a dynamic and challenging environment, driving innovation and delivering value through technology.</p>
+            </div>
+            <div class="about-right">
+                <h3>Interests</h3>
+                <div class="skills-grid">
+                    <div class="skill-box">Software Engineering</div>
+                    <div class="skill-box">Web Development</div>
+                    <div class="skill-box">Machine Learning</div>
+                    <div class="skill-box">Artificial Intelligence</div>
+                </div>
+                <div class="email">
+                  <a href="mailto:chittireddyveda@gmail.com">
+                    <button>Contact Me</button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="skills" id="Skills">
+      <h2 class="heading">Skills Overview</h2>
+      <div class="skills-container">
+        <div class="skill-box">
+          <h2>Languages</h2>
+          <div class="sub-skills">
+            <div class="sub-skill">Java</div>
+            <div class="sub-skill">Python</div>
+            <div class="sub-skill">JavaScript</div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h2>Web Development</h2>
+          <div class="sub-skills">
+            <div class="sub-skill">HTML</div>
+            <div class="sub-skill">CSS</div>
+            <div class="sub-skill">React.js</div>
+            <div class="sub-skill">Node.js</div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h2>Database</h2>
+          <div class="sub-skills">
+            <div class="sub-skill">MySQL</div>
+            <div class="sub-skill">MongoDB</div>
+          </div>
+        </div>
+        
+        <div class="skill-box">
+          <h2>Tools</h2>
+          <div class="sub-skills">
+            <div class="sub-skill">Git</div>
+            <div class="sub-skill">VSCode</div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h2>Coursework</h2>
+          <div class="sub-skills">
+            <div class="sub-skill">Data Structures & Algorithms</div>
+            <div class="sub-skill">DBMS</div>
+            <div class="sub-skill">Artificial Intelligence</div>
+            <div class="sub-skill">Machine Learning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+  <section id="experience">
+      <div class="container">
+          <h2>My Experience</h2>
+          <div class="experience-item">
+              <h3>Intern - RCI, DRDO</h3>
+              <p><strong>Sep 2024 - Oct 2024</strong> | Hyderabad, Telangana</p>
+              <ul>
+                  <li>Automated data extraction from PDF documents using Python and Camelot, converting tables into Markdown format.</li>
+                  <li>Developed a question-answering pipeline with Haystack and DensePassageRetriever models, achieving 85% accuracy in retrieving relevant answers from large document datasets.</li>
+                  <li>Enhanced document retrieval by updating document embeddings, reducing search time by 40%, and improving information retrieval efficiency.</li>
+              </ul>
+          </div>
+      </div>
+  </section>
+  
+  <section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-box">
+                <img src="images/realtime.png" alt="Real time code collaboration">
+                <h3>Real-Time Code Collaboration</h3>
+                <button class="view-details-btn" onclick="openModal('project1-modal')">View Details</button>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-box">
+                <img src="images/weather.png" alt="Weather Now">
+                <h3>Weather Now</h3>
+                <button class="view-details-btn" onclick="openModal('project2-modal')">View Details</button>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-box">
+                <img src="images/fakereal.png" alt="Fake Reviews Identification">
+                <h3>Fake Reviews Identification</h3>
+                <button class="view-details-btn" onclick="openModal('project3-modal')">View Details</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Structures -->
+    <div id="project1-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project1-modal')">&times;</span>
+            <h2>Real-Time Code Collaboration</h2>
+            <p><strong>Technologies:</strong> React, Node.js, Express.js, Socket.IO</p>
+            <p><strong>Project Link:</strong> <a href="https://drive.google.com/file/d/1XdznZ_qkFH__scj88gQ547nE9H3WUQUH/view?usp=sharing" target="_blank">View Project</a></p>
+            <p><strong>Description:</strong></p>
+            <ul>
+                <li>Scalable collaborative code editor with real-time multi-user editing.</li>
+                <li>Efficient synchronization using Socket.IO and integrated JDoodle API for execution.</li>
+                <li>Optimized for performance and user collaboration.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="project2-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project2-modal')">&times;</span>
+            <h2>Weather Now</h2>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Open Weather API</p>
+            <p><strong>Project Link:</strong> <a href="https://vedareddy04.github.io/Weather/" target="_blank">View Project</a></p>
+            <p><strong>Description:</strong></p>
+            <ul>
+                <li>Real-time weather updates using OpenWeather API.</li>
+                <li>Optimized API requests for accurate and fast rendering.</li>
+                <li>User-friendly interface for engaging and intuitive usage.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="project3-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project3-modal')">&times;</span>
+            <h2>Fake Reviews Identification</h2>
+            <p><strong>Technologies:</strong> Python, Pandas, NLTK, Scikit-learn</p>
+            <p><strong>Project Link:</strong> <a href="https://github.com/VedaReddy04/FakeReviewIdentification" target="_blank">View Project</a></p>
+            <p><strong>Description:</strong></p>
+            <ul>
+                <li>Hybrid ML model to detect fake reviews with 86% accuracy.</li>
+                <li>Advanced algorithms like Random Forest, XGBoost, and BERT implemented.</li>
+                <li>Optimized processing for large-scale review datasets.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+  
+  <section id="education">
+    <div class="container">
+      <h2>My Education</h2>
+      <div class="timeline">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2021 - Present</h3>
+            <h4>Vardhaman College of Engineering</h4>
+            <p>Bachelor's in Information Technology</p>
+            <p><strong>CGPA:</strong><b> 9.43/10</b> </p>
+          </div>
+        </div>
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2019 - 2021</h3>
+            <h4>Sri Chaitanya Junior Kalasala</h4>
+            <p>XI, XII</p>
+            <p><strong>Percentage:</strong> <b> 97.6%</b></p>
+          </div>
+        </div>
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2018 - 2019</h3>
+            <h4>Sri Chaitanya School</h4>
+            <p>X</p>
+            <p><strong>CGPA:</strong> <b> 10/10</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="container">
+        <h2>Achievements</h2>
+        <div class="achievements-content">
+            <div class="achievements-left">
+                <img src="images/trophy-image.png" alt="Achievements Trophy" class="achievement-img">
+            </div>
+            <div class="achievements-right">
+                <div class="achievements-item">
+                    <div class="achievements-number">1</div>
+                    <div class="achievements-text">
+                        <h3>Secretary of Cyber Sync Club</h3>
+                        <p>Served as Secretary of Cyber Sync Club, successfully conducting multiple events and workshops to foster innovation and
+                          enhance technical skills among students</p>
+                    </div>
+                </div>
+                <div class="achievements-item">
+                    <div class="achievements-number">2</div>
+                    <div class="achievements-text">
+                        <h3>IEEE Publication</h3>
+                        <p>Co-authored and published the research paper titled "Fake Review Identification using Hybrid Fusion of Machine Learning and Natural Language Processing Techniques" at the 2024 3rd Odisha International Conference on Electrical Power Engineering, Communication and Computing Technology (ODICON), Bhubaneswar, India. </p>
+                    </div>
+                </div>
+                <div class="achievements-item">
+                    <div class="achievements-number">3</div>
+                    <div class="achievements-text">
+                        <h3>Smart Interviews Training Program</h3>
+                        <p>Secured a spot in the Smart Interviews DSA training program at my college and gained in-depth knowledge of data structures and algorithms, ranking in the top 10%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out</p>
+    <form class="contact-form" onsubmit="sendMail(event)">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
